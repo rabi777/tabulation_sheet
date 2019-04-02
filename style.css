@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-area {
+    width:1400px;
+}
+.school_name {
+    text-align: center;
+    margin-top: 10px;
+}
+.class-detals {
+    margin: 12px 0px 12px 0;
+}
+.class-detals::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.overflow {
+    overflow: hidden;
+}
+.details {
+    width: 15%;
+    float: left;
+}
+.school_name h3 {
+    font-size: 31px;
+    
+}
+.school_name p {
+    display: block;
+    font-size: 23px;
+}
+
+.class-name,
+.section,
+.shift {
+    text-align: center;
+}
+th,
+td {
+    border: solid 1px rgb(204, 199, 199);
+    padding: 4px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
